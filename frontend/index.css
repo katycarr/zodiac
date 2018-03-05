@@ -1,0 +1,77 @@
+body, html {
+  margin:0;
+  padding:0;
+  background-color:rgb(47, 31, 97)
+}
+
+#wrapper {
+  display:grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+#sign-container {
+  background-color: rgba(153, 204, 255,0.7);
+  margin:0;
+  height:100%;
+  text-align:center;
+  min-width: 110px;
+}
+
+#detail-container {
+  padding-left:50px;
+  grid-column:2/5;
+  color:white;
+}
+
+.sign-item h5 {
+  margin:0;
+  line-height: 2em;
+  font-size: 14px;
+}
+
+.sign-item p {
+  font-size: 12px;
+  font-family: sans-serif;
+  margin-top:0;
+}
+
+#signup {
+  grid-column: 5/7;
+  color:white;
+}
+
+#signup form {
+  text-align:center;
+}
+
+#signup input {
+  margin:10px;
+}
+
+#signup h3 {
+  text-align:center;
+}
+
+img {
+  height:150px;
+  width:150px;
+  padding:20px;
+  border-radius:10px;
+  background-color:rgba(255, 255, 255,0.7);
+  box-shadow: 2px 2px 2px black;
+  margin:20px;
+  float:right;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+h1 {
+  font-family:fantasy;
+  font-size: 36px;
+}
+
+.description {
+  line-height:2em;
+}

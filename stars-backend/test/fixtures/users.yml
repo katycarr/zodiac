@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  birthday: 2018-03-02
+  sign_id: 1
+
+two:
+  name: MyString
+  birthday: 2018-03-02
+  sign_id: 1
